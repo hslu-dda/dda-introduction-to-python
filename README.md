@@ -1,2 +1,3 @@
-# Python Notebooks
-A collection of helpfull Python notebooks for data analysis
+# DD+A Introduction to Python
+
+A collection of ressources, notebooks und curriculas from Data Design + Art concerning Python.
