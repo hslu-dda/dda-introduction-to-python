@@ -40,6 +40,10 @@ If Python is not installed, follow the instructions below:
    ```sh
    python3 --version
    ```
+   Or
+   ```sh
+   python --version
+   ```
 
 ### Windows
 1. Download Python from the official website: [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
@@ -56,7 +60,59 @@ If Python is not installed, follow the instructions below:
 
 ---
 
-## 3. Setting Up VS Code for Python and Jupyter Notebooks
+## 3. Verifying and Installing pip on Mac and Windows
+
+After installing Python, check if pip (Python's package manager) is installed:
+
+```sh
+pip --version
+```
+Or, if using Windows:
+```sh
+py -m pip --version
+```
+
+If pip is not installed it: 
+
+### Install pip on Mac/Linux
+
+```sh
+python -m ensurepip --default-pip
+python -m pip install --upgrade pip
+```
+
+Verify again with `pip --version`.
+
+### Install pip on Windows
+
+```sh
+py -m ensurepip --default-pip
+py -m pip install --upgrade pip
+```
+
+Verify again with `pip --version`.
+
+---
+
+## 4. Verifying and Installing Pandas
+
+To check if pandas is installed, use:
+
+```sh
+pip show pandas
+```
+
+If pandas is not installed, install it using:
+
+```sh
+pip install pandas
+```
+
+Verify the installation again.
+
+---
+
+## 5. Setting Up VS Code for Python and Jupyter Notebooks
 
 ### Installing Python Extensions
 1. Click on the Extensions icon on the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X` on Mac).
