@@ -6,6 +6,8 @@ However, if you run into serious problems installing Python on your machine whic
 
 # Setup Python Locally
 
+Note: For this setup you will work with your computers **command line interface** (CLI). On Mac this is the **Terminal** on Windows **Command Prompt**. If you want to learn more about your CLI and it's magnificent abilities for designers, check this [tutorial](https://ffd8.github.io/cli-for-artists-and-designers/) by Ted Davis.
+
 ## 1. Checking if Python is already Installed
 
 Before installing Python, check if it is already available on your system.
