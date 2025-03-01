@@ -1,5 +1,19 @@
 # Fundamental Pandas Commands for DataFrames
 
+## Colab
+
+When working with Google Colab you first need to load the Google Drive to access data: 
+
+```python
+import pandas as pd
+
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+file_path = "/content/gdrive/MyDrive/YOUR-FOLDER/data/movies_imdb.csv"
+data = pd.read_csv(file_path)
+```
+
 ## 1. Importing Pandas and Creating a DataFrame
 
 ```python
