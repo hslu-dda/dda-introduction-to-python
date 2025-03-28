@@ -39,7 +39,7 @@ data/
 
 Use the [NOAA Webscraper](https://github.com/hslu-dda/dda-introduction-to-python/tree/main/07_Data_Applications/noaa-webscraper) to create a folder for each YEARMONTH (e.g. `199301`). Within each of those folders the webscraper will collect one .nc file per day. These files will be used to calculate the mean SST per month. 
 
-### 2. Settings
+### 2. Settings
 
 Set the `BASE_DIR` where all the YEARMONTH folders are located. Define `START_YEAR` and `END_YEAR` to be able to control what you process. 
 
