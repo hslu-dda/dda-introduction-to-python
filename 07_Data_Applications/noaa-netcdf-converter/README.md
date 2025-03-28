@@ -1,6 +1,8 @@
 # NOAA Sea Surface Temperature (SST) Data Processing
 
-This project extracts Sea Surface Temperature (SST) data for a region (e.g. the North Atlantic) from daily .nc files (NetCDF format) provided by [NOAA](https://www.ncei.noaa.gov/products/optimum-interpolation-sst). The files are processed to calculate monthly average temperatures for each latitude/longitude grid cell within the selected region.
+This project extracts Sea Surface Temperature (SST) data for a region (e.g. the North Atlantic) from daily .nc files (NetCDF format) provided by [NOAA](https://www.ncei.noaa.gov/products/optimum-interpolation-sst). The files are processed to calculate monthly average temperatures for each latitude/longitude grid cell within the selected region agross years.
+
+See also the [NOAA Webscraper](https://github.com/hslu-dda/dda-introduction-to-python/tree/main/07_Data_Applications/noaa-webscraper) to collect the necessary files. 
 
 
 ## Dependencies
@@ -15,15 +17,19 @@ You need the following packages installed (tested with Python 3.11.5):
 
 ```sh
 data/
-└── 2023/
-    ├── oisst-avhrr-v02r01.20230101.nc
-    ├── oisst-avhrr-v02r01.20230201.nc
+└── 199301/
+    ├── oisst-avhrr-v02r01.19930101.nc
+    ├── oisst-avhrr-v02r01.19930102.nc
+    ├── ...
+└── 199302/
+    ├── oisst-avhrr-v02r01.19930201.nc
+    ├── oisst-avhrr-v02r01.19930202.nc
     ├── ...
 ```
 
 ## Notebook Structure
 
-1. Exploring the Data Structure: Section to get familiar with NetCDF4 formats
+1. Exploring the Data Structure: Section to get familiar with NetCDF4 formats.
 2. Scaling Up: Section to actually prepare the data.
 
 
@@ -31,30 +37,28 @@ data/
 
 1. Download Files
 
-Get the files for one year. Each file will be used for the calculation of the mean temperature. For this example I chose the file from the first of the month resulting in 12 files for one year.
+Use the [NOAA Webscraper](https://github.com/hslu-dda/dda-introduction-to-python/tree/main/07_Data_Applications/noaa-webscraper) to create a folder for each YEARMONTH (e.g. `199301`). Within each of those folders you the webscraper will collect one .nc file per day. These files will pre used to calculate the mean temperature per month. 
 
-2. Load and Sort Files
+2. Settings
 
-The script lists all .nc files in the data/2023/ folder and ensures they are processed in chronological order by extracting the date (YYYYMMDD) from each filename and sorting accordingly.
+Set the `BASE_DIR` where all the YEARMONTH folders are located. Define `START_YEAR` and `END_YEAR` to be able to control what you process. 
 
-3. Extract Region of Interest
+Set the are for which you want the SST to be calculated. See Section 1 of the Notebook under «Understanding Longitude and Latitude» for more information. 
 
-From each file, the script extracts SST data for the North Atlantic, defined roughly as:
-- Latitude: 30°N to 60°N
-- Longitude: 280°E to 360°E (which corresponds to 100°W to 0°W in the Atlantic)
+3. Calculate Montly Mean
+
+The function `process_sst_data()` takes care of everything. It returns a dataframe with an montly mean for each location.
+
+4. Further Data Adjustments
+
+The longitude needs to be converted from the 0 to 360 format to the -180 to 180 format (also see Section 1 of the Notebook under «Understanding Longitude and Latitude» for more information)
 
 4. Combine Data
 
 For each file, the extracted SST data (with its lat/lon coordinates and timestamp) is saved into a DataFrame. All daily DataFrames are combined into a single DataFrame for the year.
 
-5. Calculate Monthly Mean
+You can also remove coordinates with no SST value (landmass), select only one year or **bin** the coordinates to reduce the resolution for mapping visualizations. 
 
-For each grid cell (lat/lon position), the average SST is calculated across all days in the year.
+5. Export
 
-7. Add Metadata
-
-The year (2023 in this case) is added to the final DataFrame.
-
-8. Save to CSV
-
-The final result is saved to a CSV file (north_atlantic_sst_2023.csv), ready for further analysis.
+As the name says. 🥷 Have fun, may your code run smoothly!
