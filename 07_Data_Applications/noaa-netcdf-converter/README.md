@@ -35,30 +35,26 @@ data/
 
 ## Process Workflow (Scaling Up Section)
 
-1. Download Files
+### 1. Download Files
 
-Use the [NOAA Webscraper](https://github.com/hslu-dda/dda-introduction-to-python/tree/main/07_Data_Applications/noaa-webscraper) to create a folder for each YEARMONTH (e.g. `199301`). Within each of those folders you the webscraper will collect one .nc file per day. These files will pre used to calculate the mean temperature per month. 
+Use the [NOAA Webscraper](https://github.com/hslu-dda/dda-introduction-to-python/tree/main/07_Data_Applications/noaa-webscraper) to create a folder for each YEARMONTH (e.g. `199301`). Within each of those folders the webscraper will collect one .nc file per day. These files will be used to calculate the mean SST per month. 
 
-2. Settings
+### 2. Settings
 
 Set the `BASE_DIR` where all the YEARMONTH folders are located. Define `START_YEAR` and `END_YEAR` to be able to control what you process. 
 
-Set the are for which you want the SST to be calculated. See Section 1 of the Notebook under «Understanding Longitude and Latitude» for more information. 
+Set the area for which you want the SST to be calculated. See Section 1 of the Notebook (➡️ «Understanding Longitude and Latitude») for more information. 
 
-3. Calculate Montly Mean
+### 3. Calculate Montly Mean
 
 The function `process_sst_data()` takes care of everything. It returns a dataframe with an montly mean for each location.
 
-4. Further Data Adjustments
+### 4. Further Data Adjustments
 
-The longitude needs to be converted from the 0 to 360 format to the -180 to 180 format (also see Section 1 of the Notebook under «Understanding Longitude and Latitude» for more information)
+The longitude needs to be converted from the 0 to 360 format to the -180 to 180 format (also see Section 1 of the Notebook ➡️ «Understanding Longitude and Latitude» for more information)
 
-4. Combine Data
+You can also remove coordinates with no SST value (land mass), select only one year or **bin** the coordinates to reduce the resolution for mapping visualizations. 
 
-For each file, the extracted SST data (with its lat/lon coordinates and timestamp) is saved into a DataFrame. All daily DataFrames are combined into a single DataFrame for the year.
-
-You can also remove coordinates with no SST value (landmass), select only one year or **bin** the coordinates to reduce the resolution for mapping visualizations. 
-
-5. Export
+### 5. Export
 
 As the name says. 🥷 Have fun, may your code run smoothly!
