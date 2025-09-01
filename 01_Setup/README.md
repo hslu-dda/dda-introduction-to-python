@@ -1,29 +1,32 @@
-# Setting Up Python
+# 01 Setup
 
 There are two ways of executing Python code: Locally on your machine or in a cloud environment such as [Google Colab](https://colab.research.google.com/). For an optimal workflow and to avoid data protection issues a local working environment is encouraged. To setup Python on your local machine follow the steps below. 
 
-However, if you run into serious problems installing Python on your machine which you can't resolve, it's okay to follow the introduction course using Google Colab. In this case, make sure to sign up to Colab before class starts. All you need for this is a Google account (e.g. an @gmail address).
+# Local Python Setup
 
-# Setup Python Locally
-
-Note: For this setup you will work with your computers **command line interface** (CLI). On Mac this is the **[Terminal](https://support.apple.com/de-de/guide/terminal/trmld4c92d55/mac)** on Windows **[Command Prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089)**. If you want to learn more about your CLI and it's magnificent abilities for designers, check this [tutorial](https://ffd8.github.io/cli-for-artists-and-designers/) by Ted Davis.
+Note: For this setup you will work with your computers **command line interface** (CLI). On Mac this is the **[Terminal](https://support.apple.com/de-de/guide/terminal/trmld4c92d55/mac)** on Windows the **[Command Prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089)**. If you want to learn more about your CLI and it's magnificent abilities for designers, check this [tutorial](https://ffd8.github.io/cli-for-artists-and-designers/) by Ted Davis (Mac/Terminal).
 
 ## 1. Checking if Python is already Installed
 
 Before installing Python, check if it is already available on your system.
 
 ### Mac
+
 Open the Terminal and run:
+
 ```sh
 python3 --version
 ```
-Or:
+and/or:
 ```sh
 python --version
 ```
 If Python is installed, it will display a version number (e.g., `Python 3.9.7`). Proceed with step 3.
 
+Note: It is possible to have multiple different Python versions installed on your computer. On a Mac you might see both `python` and `python3` because older Macs came with an older version of Python called Python 2 (run with python), and when you install the newer Python 3 it gets its own command (python3) so the computer can tell them apart.
+
 ### Windows
+
 Open Command Prompt (Win + R, then type `cmd` and press Enter) and run:
 ```sh
 python --version
@@ -45,13 +48,14 @@ If Python is not installed, follow the instructions below:
 1. Download the latest Python version from the official website: [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/)
 2. Run the installer and follow the instructions.
 3. Verify the installation with terminal by typing:
-   ```sh
-   python3 --version
-   ```
-   Or
-   ```sh
-   python --version
-   ```
+
+```sh
+python3 --version
+```
+Or
+```sh
+python --version
+```
 
 ### Windows
 
@@ -81,7 +85,7 @@ Or, if using Windows:
 py -m pip --version
 ```
 
-If pip is not installed it: 
+If pip is not installed, install it: 
 
 ### Install pip on Mac/Linux
 
@@ -90,7 +94,7 @@ python -m ensurepip --default-pip
 python -m pip install --upgrade pip
 ```
 
-Verify again with `pip --version`.
+Verify that the installation was successfull with `pip --version`.
 
 ### Install pip on Windows
 
@@ -99,28 +103,46 @@ py -m ensurepip --default-pip
 py -m pip install --upgrade pip
 ```
 
-Verify again with `pip --version`.
+Verify that the installation was successfull with `pip --version`.
 
 ---
 
-## 4. Verifying and Installing Pandas
+## 4. Installing Pyenv & Homebrew
 
-To check if pandas is installed, use:
+When you work with Python, different projects may need different versions of Python.  
+For example, one project might only run on **Python 3.9**, while another requires **Python 3.12**.  
+Installing and switching between these versions manually can be messy.  
+
+[pyenv](https://github.com/pyenv/pyenv) makes this easy:
+- It lets you install multiple versions of Python side-by-side.
+- You can quickly switch between them for different projects.
+- It keeps your system Python (the one your Mac/Windows comes with) separate and safe.
+
+### Mac
+
+To install Pyenv you need [Homebrew](https://brew.sh/de/). Homebrew is a package manager for macOS — it works a bit like an “app store” for the terminal, letting you install and update software with simple commands instead of dragging apps around manually. Tools like pyenv aren’t regular apps with a clickable installer; they’re command-line utilities that need to be integrated into your shell (Terminal), so downloading a .dmg file like you would for Chrome or Zoom won’t work. On macOS, a package manager like Homebrew makes sense because it automatically puts these tools in the right place, keeps them updated, and handles all the little system details for you.
+
+Go to the [Homebrew](https://brew.sh/de/) website and follow the installation instructions. Verify the installation by typing the following into your terminal: 
 
 ```sh
-pip show pandas
+brew --version
 ```
-
-A message will appear including a version number of Pandas. 
-If pandas is not installed, install it using:
+Your good to go if you see a version number like `Homebrew 4.5.8`. Proceed by installing [pyenv](https://github.com/pyenv/pyenv) using Homebrew, type the following command:
 
 ```sh
-pip install pandas
+brew install pyenv
 ```
 
-Verify the installation again.
+You can verify the installation by typing: 
 
----
+```sh
+# outputs something like 'pyenv 2.6.3'
+pyenv --version
+```
+
+### Windows
+
+To install Pyenv on Windows please follow the steps on the official [Github page](https://github.com/pyenv-win/pyenv-win). 
 
 ## 5. Setting Up VS Code for Python and Jupyter Notebooks
 
@@ -134,15 +156,9 @@ These extensions will automatically install a few other, thats fine and you don'
 
 ### Running Jupyter Notebooks in VS Code
 
-1. Create a file with the ending `.ipynb`.
-2. Click **"Select Kernel"** and choose the installed Python environment.
-3. Create a Python cell and add the following code: 
-```sh
-name = "Alice"
-print(f"Hello, {name}!")
-```
-4. Run the cell by clicking the **Run** button.
+1. Open the provided folder "python-introduction" in VS Code
+2. Open the file `test.ipynb`.
+3. On the top right corner of VS Code, click **"Select Kernel"** and choose the installed Python environment.
+4. In the center top of VS Code click **"Run All"**.  You should see a `hello world!` message underneath the code cell. 
 
-You should now see `Hello, Alice!` be printed below the cell. 
-Congratulations, your Python and Jupyter setup in VS Code is now complete!
-
+All done? Nice! 👍 You are on your way to become a master coder. 🥷

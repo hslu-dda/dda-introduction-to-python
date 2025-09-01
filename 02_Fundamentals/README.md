@@ -1,4 +1,4 @@
-# Fundamental Python Commands
+# 02 Fundamentals
 
 ## 1. Defining Variables
 
