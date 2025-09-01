@@ -105,12 +105,13 @@ Verify again with `pip --version`.
 
 ## 4. Verifying and Installing Pandas
 
-To check if pandas is installed, use. A message will appear including a version number of Pandas. 
+To check if pandas is installed, use:
 
 ```sh
 pip show pandas
 ```
 
+A message will appear including a version number of Pandas. 
 If pandas is not installed, install it using:
 
 ```sh
