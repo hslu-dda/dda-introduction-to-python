@@ -113,6 +113,7 @@ Now you are ready to go!! 🥷
 1. Click on the Extensions icon on the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X` on Mac).
 2. Search for **Python** and install the extension by Microsoft.
 3. Search for **Jupyter** and install the extension by Microsoft.
+4. Search for **Pylance** and install the extension by Microsoft (Auto-complete feature).
 
 These extensions will automatically install a few other, thats fine and you don't need to worry about it. 
 
