@@ -6,3 +6,4 @@
 07_Data_Applications/**/export
 **/export
 .DS_Store
+**/cache
