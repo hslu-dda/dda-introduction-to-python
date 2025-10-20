@@ -1,8 +1,6 @@
 03_Pandas/data
 03_Pandas/export
-06_Vega_Altair/data
-06_Vega_Altair/export
-07_Data_Applications/**/data
-07_Data_Applications/**/export
+05_Geopandas/data
+05_Geopandas/export
 **/export
 .DS_Store
