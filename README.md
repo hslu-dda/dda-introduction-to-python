@@ -11,6 +11,7 @@ Course material for the Introduction to Python taught at Data Design + Art, HSLU
 
 ### Further Python related ressources:
 
+- [Key syntax differences between Python and JavaScript](./Ressources/Differences_to_JavaScript/)
 - [Working with Geodata using Geopandas](.R/essources/Geopandas/)
 - [Calculating correlations using Pandas](./Ressources/Correlations)
 - [Applying Natural Language Processing to analyze unstructured text](./Ressources/Natural_Language_Processing)
