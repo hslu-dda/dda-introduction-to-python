@@ -106,7 +106,7 @@ pyenv global 3.13.0
 
 ## 7. Verifying
 
-1. To verify that everything worked type `pyenv versions`. You should see your installed Python version number and a * to show that its global. 
+1. To verify that everything worked type `pyenv versions` in the Terminal. You should see your installed Python version number and a * to show that its global. 
 2. Type `which python` and verify that the path it outputs points towards pyenv, it should look something like `/Users/your-user/.pyenv/shims/python`
 
 Now you are ready to go!! 🥷
@@ -128,5 +128,6 @@ These extensions will automatically install a few other, thats fine and you don'
 2. Open the file `test.ipynb`.
 3. On the top right corner of VS Code, click **"Select Kernel"** and choose the installed Python environment. You will also see your "System Python", ignore it and select the one with the path pointing towards pyenv (e.g. `/pyenv/versions/13.3.0`)
 4. In the center top of VS Code click **"Run All"**.  You should see a `hello world!` message underneath the code cell. 
+5. Lastly, open your built-in terminal in VS Code and type `which python` and verify that the path it outputs points towards pyenv, it should look something like `/Users/your-user/.pyenv/shims/python`. If this is not the case but it worked with your regular terminal before close/open and try again or consult GenAI.
 
 All done? Nice! 👍 You are on your way to become a master coder. 🥷
