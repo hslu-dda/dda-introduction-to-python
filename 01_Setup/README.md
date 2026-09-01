@@ -17,6 +17,8 @@ Also, when working with Python, different projects may need different versions o
 
 The following documentation will walk you through all steps.
 
+**Important:** Read what happens in the terminal. Sometimes after a command has been executed you are ask to do some configurations to finish an install. 
+
 ## 1. Installing Homebrew
 
 Homebrew is a package manager for macOS — it works a bit like an “app store” for the terminal, letting you install and update software with simple commands instead of dragging apps around manually. Tools like pyenv aren’t regular apps with a clickable installer; they’re command-line utilities that need to be integrated into your shell (Terminal), so downloading a .dmg file like you would for Chrome or Zoom won’t work. On macOS, a package manager like Homebrew makes sense because it automatically puts these tools in the right place, keeps them updated, and handles all the little system details for you.
@@ -75,7 +77,10 @@ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
 ```
-**Now you should be ready with Pyenv!**
+**Now you should be ready with Pyenv! Verify by typing `pyenv --version`. You should see a version number. If you see 'command not found' repeat step 5 or consult the following links:**
+
+- [Set up your shell environment for Pyenv](https://github.com/pyenv/pyenv/#b-set-up-your-shell-environment-for-pyenv)
+- [Manual shell setup](https://github.com/pyenv/pyenv/#manual-shell-setup)
 
 ## 6. Install Python with Pyenv
 
@@ -121,7 +126,7 @@ These extensions will automatically install a few other, thats fine and you don'
 
 1. Open the provided folder "python-introduction" in VS Code
 2. Open the file `test.ipynb`.
-3. On the top right corner of VS Code, click **"Select Kernel"** and choose the installed Python environment.
+3. On the top right corner of VS Code, click **"Select Kernel"** and choose the installed Python environment. You will also see your "System Python", ignore it and select the one with the path pointing towards pyenv (e.g. `/pyenv/versions/13.3.0`)
 4. In the center top of VS Code click **"Run All"**.  You should see a `hello world!` message underneath the code cell. 
 
 All done? Nice! 👍 You are on your way to become a master coder. 🥷
