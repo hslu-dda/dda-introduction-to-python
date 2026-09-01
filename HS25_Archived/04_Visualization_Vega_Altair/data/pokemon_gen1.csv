@@ -1,0 +1,152 @@
+name,type1,type2,classfication,height_m,weight_kg,year,is_legendary,attack,speed,hp,base_happiness,capture_rate
+Bulbasaur,grass,poison,Seed Pokémon,0.7,6.9,1996,0,49,45,45,70,45
+Ivysaur,grass,poison,Seed Pokémon,1.0,13.0,1996,0,62,60,60,70,45
+Venusaur,grass,poison,Seed Pokémon,2.0,100.0,1996,0,100,80,80,70,45
+Charmander,fire,,Lizard Pokémon,0.6,8.5,1996,0,52,65,39,70,45
+Charmeleon,fire,,Flame Pokémon,1.1,19.0,1996,0,64,80,58,70,45
+Charizard,fire,flying,Flame Pokémon,1.7,90.5,1996,0,104,100,78,70,45
+Squirtle,water,,Tiny Turtle Pokémon,0.5,9.0,1996,0,48,43,44,70,45
+Wartortle,water,,Turtle Pokémon,1.0,22.5,1996,0,63,58,59,70,45
+Blastoise,water,,Shellfish Pokémon,1.6,85.5,1996,0,103,78,79,70,45
+Caterpie,bug,,Worm Pokémon,0.3,2.9,1996,0,30,45,45,70,255
+Metapod,bug,,Cocoon Pokémon,0.7,9.9,1996,0,20,30,50,70,120
+Butterfree,bug,flying,Butterfly Pokémon,1.1,32.0,1996,0,45,70,60,70,45
+Weedle,bug,poison,Hairy Pokémon,0.3,3.2,1996,0,35,50,40,70,255
+Kakuna,bug,poison,Cocoon Pokémon,0.6,10.0,1996,0,25,35,45,70,120
+Beedrill,bug,poison,Poison Bee Pokémon,1.0,29.5,1996,0,150,145,65,70,45
+Pidgey,normal,flying,Tiny Bird Pokémon,0.3,1.8,1996,0,45,56,40,70,255
+Pidgeotto,normal,flying,Bird Pokémon,1.1,30.0,1996,0,60,71,63,70,120
+Pidgeot,normal,flying,Bird Pokémon,1.5,39.5,1996,0,80,121,83,70,45
+Rattata,normal,dark,Mouse Pokémon,,,1996,0,56,72,30,70,255
+Raticate,normal,dark,Mouse Pokémon,,,1996,0,71,77,75,70,127
+Spearow,normal,flying,Tiny Bird Pokémon,0.3,2.0,1996,0,60,70,40,70,255
+Fearow,normal,flying,Beak Pokémon,1.2,38.0,1996,0,90,100,65,70,90
+Ekans,poison,,Snake Pokémon,2.0,6.9,1996,0,60,55,35,70,255
+Arbok,poison,,Cobra Pokémon,3.5,65.0,1996,0,95,80,60,70,90
+Pikachu,electric,,Mouse Pokémon,0.4,6.0,1996,0,55,90,35,70,190
+Raichu,electric,electric,Mouse Pokémon,,,1996,0,85,110,60,70,75
+Sandshrew,ground,ice,Mouse Pokémon,,,1996,0,75,40,50,70,255
+Sandslash,ground,ice,Mouse Pokémon,,,1996,0,100,65,75,70,90
+Nidoran♀,poison,,Poison Pin Pokémon,0.4,7.0,1996,0,47,41,55,70,235
+Nidorina,poison,,Poison Pin Pokémon,0.8,20.0,1996,0,62,56,70,70,120
+Nidoqueen,poison,ground,Drill Pokémon,1.3,60.0,1996,0,92,76,90,70,45
+Nidoran♂,poison,,Poison Pin Pokémon,0.5,9.0,1996,0,57,50,46,70,235
+Nidorino,poison,,Poison Pin Pokémon,0.9,19.5,1996,0,72,65,61,70,120
+Nidoking,poison,ground,Drill Pokémon,1.4,62.0,1996,0,102,85,81,70,45
+Clefairy,fairy,,Fairy Pokémon,0.6,7.5,1996,0,45,35,70,140,150
+Clefable,fairy,,Fairy Pokémon,1.3,40.0,1996,0,70,60,95,140,25
+Vulpix,fire,ice,Fox Pokémon,,,1996,0,41,65,38,70,190
+Ninetales,fire,ice,Fox Pokémon,,,1996,0,67,109,73,70,75
+Jigglypuff,normal,fairy,Balloon Pokémon,0.5,5.5,1996,0,45,20,115,70,170
+Wigglytuff,normal,fairy,Balloon Pokémon,1.0,12.0,1996,0,70,45,140,70,50
+Zubat,poison,flying,Bat Pokémon,0.8,7.5,1996,0,45,55,40,70,255
+Golbat,poison,flying,Bat Pokémon,1.6,55.0,1996,0,80,90,75,70,90
+Oddish,grass,poison,Weed Pokémon,0.5,5.4,1996,0,50,30,45,70,255
+Gloom,grass,poison,Weed Pokémon,0.8,8.6,1996,0,65,40,60,70,120
+Vileplume,grass,poison,Flower Pokémon,1.2,18.6,1996,0,80,50,75,70,45
+Paras,bug,grass,Mushroom Pokémon,0.3,5.4,1996,0,70,25,35,70,190
+Parasect,bug,grass,Mushroom Pokémon,1.0,29.5,1996,0,95,30,60,70,75
+Venonat,bug,poison,Insect Pokémon,1.0,30.0,1996,0,55,45,60,70,190
+Venomoth,bug,poison,Poison Moth Pokémon,1.5,12.5,1996,0,65,90,70,70,75
+Diglett,ground,ground,Mole Pokémon,,,1996,0,55,90,10,70,255
+Dugtrio,ground,ground,Mole Pokémon,,,1996,0,100,110,35,70,50
+Meowth,normal,dark,Scratch Cat Pokémon,,,1996,0,35,90,40,70,255
+Persian,normal,dark,Classy Cat Pokémon,,,1996,0,60,115,65,70,90
+Psyduck,water,,Duck Pokémon,0.8,19.6,1996,0,52,55,50,70,190
+Golduck,water,,Duck Pokémon,1.7,76.6,1996,0,82,85,80,70,75
+Mankey,fighting,,Pig Monkey Pokémon,0.5,28.0,1996,0,80,70,40,70,190
+Primeape,fighting,,Pig Monkey Pokémon,1.0,32.0,1996,0,105,95,65,70,75
+Growlithe,fire,,Puppy Pokémon,0.7,19.0,1996,0,70,60,55,70,190
+Arcanine,fire,,Legendary Pokémon,1.9,155.0,1996,0,110,95,90,70,75
+Poliwag,water,,Tadpole Pokémon,0.6,12.4,1996,0,50,90,40,70,255
+Poliwhirl,water,,Tadpole Pokémon,1.0,20.0,1996,0,65,90,65,70,120
+Poliwrath,water,fighting,Tadpole Pokémon,1.3,54.0,1996,0,95,70,90,70,45
+Abra,psychic,,Psi Pokémon,0.9,19.5,1996,0,20,90,25,70,200
+Kadabra,psychic,,Psi Pokémon,1.3,56.5,1996,0,35,105,40,70,100
+Alakazam,psychic,,Psi Pokémon,1.5,48.0,1996,0,50,150,55,70,50
+Machop,fighting,,Superpower Pokémon,0.8,19.5,1996,0,80,35,70,70,180
+Machoke,fighting,,Superpower Pokémon,1.5,70.5,1996,0,100,45,80,70,90
+Machamp,fighting,,Superpower Pokémon,1.6,130.0,1996,0,130,55,90,70,45
+Bellsprout,grass,poison,Flower Pokémon,0.7,4.0,1996,0,75,40,50,70,255
+Weepinbell,grass,poison,Flycatcher Pokémon,1.0,6.4,1996,0,90,55,65,70,120
+Victreebel,grass,poison,Flycatcher Pokémon,1.7,15.5,1996,0,105,70,80,70,45
+Tentacool,water,poison,Jellyfish Pokémon,0.9,45.5,1996,0,40,70,40,70,190
+Tentacruel,water,poison,Jellyfish Pokémon,1.6,55.0,1996,0,70,100,80,70,60
+Geodude,rock,ground,Rock Pokémon,,,1996,0,80,20,40,70,255
+Graveler,rock,ground,Rock Pokémon,,,1996,0,95,35,55,70,120
+Golem,rock,ground,Megaton Pokémon,,,1996,0,120,45,80,70,45
+Ponyta,fire,,Fire Horse Pokémon,1.0,30.0,1996,0,85,90,50,70,190
+Rapidash,fire,,Fire Horse Pokémon,1.7,95.0,1996,0,100,105,65,70,60
+Slowpoke,water,psychic,Dopey Pokémon,1.2,36.0,1996,0,65,15,90,70,190
+Slowbro,water,psychic,Hermit Crab Pokémon,1.6,78.5,1996,0,75,30,95,70,75
+Magnemite,electric,steel,Magnet Pokémon,0.3,6.0,1996,0,35,45,25,70,190
+Magneton,electric,steel,Magnet Pokémon,1.0,60.0,1996,0,60,70,50,70,60
+Farfetch'd,normal,flying,Wild Duck Pokémon,0.8,15.0,1996,0,90,60,52,70,45
+Doduo,normal,flying,Twin Bird Pokémon,1.4,39.2,1996,0,85,75,35,70,190
+Dodrio,normal,flying,Triple Bird Pokémon,1.8,85.2,1996,0,110,110,60,70,45
+Seel,water,,Sea Lion Pokémon,1.1,90.0,1996,0,45,45,65,70,190
+Dewgong,water,ice,Sea Lion Pokémon,1.7,120.0,1996,0,70,70,90,70,75
+Grimer,poison,poison,Sludge Pokémon,,,1996,0,80,25,80,70,190
+Muk,poison,poison,Sludge Pokémon,,,1996,0,105,50,105,70,75
+Shellder,water,,Bivalve Pokémon,0.3,4.0,1996,0,65,40,30,70,190
+Cloyster,water,ice,Bivalve Pokémon,1.5,132.5,1996,0,95,70,50,70,60
+Gastly,ghost,poison,Gas Pokémon,1.3,0.1,1996,0,35,80,30,70,190
+Haunter,ghost,poison,Gas Pokémon,1.6,0.1,1996,0,50,95,45,70,90
+Gengar,ghost,poison,Shadow Pokémon,1.5,40.5,1996,0,65,130,60,70,45
+Onix,rock,ground,Rock Snake Pokémon,8.8,210.0,1996,0,45,70,35,70,45
+Drowzee,psychic,,Hypnosis Pokémon,1.0,32.4,1996,0,48,42,60,70,190
+Hypno,psychic,,Hypnosis Pokémon,1.6,75.6,1996,0,73,67,85,70,75
+Krabby,water,,River Crab Pokémon,0.4,6.5,1996,0,105,50,30,70,225
+Kingler,water,,Pincer Pokémon,1.3,60.0,1996,0,130,75,55,70,60
+Voltorb,electric,,Ball Pokémon,0.5,10.4,1996,0,30,100,40,70,190
+Electrode,electric,,Ball Pokémon,1.2,66.6,1996,0,50,150,60,70,60
+Exeggcute,grass,psychic,Egg Pokémon,0.4,2.5,1996,0,40,40,60,70,90
+Exeggutor,grass,psychic,Coconut Pokémon,,,1996,0,105,45,95,70,45
+Cubone,ground,,Lonely Pokémon,0.4,6.5,1996,0,50,35,50,70,190
+Marowak,ground,fire,Bone Keeper Pokémon,,,1996,0,80,45,60,70,75
+Hitmonlee,fighting,,Kicking Pokémon,1.5,49.8,1996,0,120,87,50,70,45
+Hitmonchan,fighting,,Punching Pokémon,1.4,50.2,1996,0,105,76,50,70,45
+Lickitung,normal,,Licking Pokémon,1.2,65.5,1996,0,55,30,90,70,45
+Koffing,poison,,Poison Gas Pokémon,0.6,1.0,1996,0,65,35,40,70,190
+Weezing,poison,,Poison Gas Pokémon,1.2,9.5,1996,0,90,60,65,70,60
+Rhyhorn,ground,rock,Spikes Pokémon,1.0,115.0,1996,0,85,25,80,70,120
+Rhydon,ground,rock,Drill Pokémon,1.9,120.0,1996,0,130,40,105,70,60
+Chansey,normal,,Egg Pokémon,1.1,34.6,1996,0,5,50,250,140,30
+Tangela,grass,,Vine Pokémon,1.0,35.0,1996,0,55,60,65,70,45
+Kangaskhan,normal,,Parent Pokémon,2.2,80.0,1996,0,125,100,105,70,45
+Horsea,water,,Dragon Pokémon,0.4,8.0,1996,0,40,60,30,70,225
+Seadra,water,,Dragon Pokémon,1.2,25.0,1996,0,65,85,55,70,75
+Goldeen,water,,Goldfish Pokémon,0.6,15.0,1996,0,67,63,45,70,225
+Seaking,water,,Goldfish Pokémon,1.3,39.0,1996,0,92,68,80,70,60
+Staryu,water,,Starshape Pokémon,0.8,34.5,1996,0,45,85,30,70,225
+Starmie,water,psychic,Mysterious Pokémon,1.1,80.0,1996,0,75,115,60,70,60
+Mr. Mime,psychic,fairy,Barrier Pokémon,1.3,54.5,1996,0,45,90,40,70,45
+Scyther,bug,flying,Mantis Pokémon,1.5,56.0,1996,0,110,105,70,70,45
+Jynx,ice,psychic,Humanshape Pokémon,1.4,40.6,1996,0,50,95,65,70,45
+Electabuzz,electric,,Electric Pokémon,1.1,30.0,1996,0,83,105,65,70,45
+Magmar,fire,,Spitfire Pokémon,1.3,44.5,1996,0,95,93,65,70,45
+Pinsir,bug,,Stagbeetle Pokémon,1.5,55.0,1996,0,155,105,65,70,45
+Tauros,normal,,Wild Bull Pokémon,1.4,88.4,1996,0,100,110,75,70,45
+Magikarp,water,,Fish Pokémon,0.9,10.0,1996,0,10,80,20,70,255
+Gyarados,water,flying,Atrocious Pokémon,6.5,235.0,1996,0,155,81,95,70,45
+Lapras,water,ice,Transport Pokémon,2.5,220.0,1996,0,85,60,130,70,45
+Ditto,normal,,Transform Pokémon,0.3,4.0,1996,0,48,48,48,70,35
+Eevee,normal,,Evolution Pokémon,0.3,6.5,1996,0,55,55,55,70,45
+Vaporeon,water,,Bubble Jet Pokémon,1.0,29.0,1996,0,65,65,130,70,45
+Jolteon,electric,,Lightning Pokémon,0.8,24.5,1996,0,65,130,65,70,45
+Flareon,fire,,Flame Pokémon,0.9,25.0,1996,0,130,65,65,70,45
+Porygon,normal,,Virtual Pokémon,0.8,36.5,1996,0,60,40,65,70,45
+Omanyte,rock,water,Spiral Pokémon,0.4,7.5,1996,0,40,35,35,70,45
+Omastar,rock,water,Spiral Pokémon,1.0,35.0,1996,0,60,55,70,70,45
+Kabuto,rock,water,Shellfish Pokémon,0.5,11.5,1996,0,80,55,30,70,45
+Kabutops,rock,water,Shellfish Pokémon,1.3,40.5,1996,0,115,80,60,70,45
+Aerodactyl,rock,flying,Fossil Pokémon,1.8,59.0,1996,0,135,150,80,70,45
+Snorlax,normal,,Sleeping Pokémon,2.1,460.0,1996,0,110,30,160,70,25
+Articuno,ice,flying,Freeze Pokémon,1.7,55.4,1996,1,85,85,90,35,3
+Zapdos,electric,flying,Electric Pokémon,1.6,52.6,1996,1,90,100,90,35,3
+Moltres,fire,flying,Flame Pokémon,2.0,60.0,1996,1,100,90,90,35,3
+Dratini,dragon,,Dragon Pokémon,1.8,3.3,1996,0,64,50,41,35,45
+Dragonair,dragon,,Dragon Pokémon,4.0,16.5,1996,0,84,70,61,35,45
+Dragonite,dragon,flying,Dragon Pokémon,2.2,210.0,1996,0,134,80,91,35,45
+Mewtwo,psychic,,Genetic Pokémon,2.0,122.0,1996,1,150,140,106,0,3
+Mew,psychic,,New Species Pokémon,0.4,4.0,1996,1,100,100,100,100,45
