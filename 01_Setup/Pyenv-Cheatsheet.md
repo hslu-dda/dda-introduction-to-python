@@ -1,6 +1,7 @@
-# PyEnv
+# PyEnv Cheatsheet
 
-When you start working with Python, you’ll quickly notice that different projects often need different Python versions. For example, one project may run on Python 3.10, while another may require Python 3.12.
+When you start working with Python, you’ll quickly notice that different projects often need different Python versions. 
+For example, one project may run on Python 3.10, while another may require Python 3.12.
 This is where pyenv helps: it lets you easily install, switch, and manage multiple Python versions on your computer.
 
 ## 1. Verify the Installation
@@ -22,12 +23,6 @@ pyenv versions
 - * → marks the currently active version
 
 ## 3. Install a specific Python version
-
-**Important: Before installing Python versions its recommended to [install certain dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment):**
-
-```bash
-brew install openssl readline sqlite3 xz tcl-tk@8 libb2 zstd zlib pkgconfig
-```
 
 You can see all available versions with:
 
