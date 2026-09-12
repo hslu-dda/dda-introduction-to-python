@@ -1,20 +1,12 @@
 # 02 Fundamentals
 
-Introduction: 
-- Jupyter Notebook: Python and Markdown Cels
-- Creating a Pyenv environment.
-- Differences to Javascript (Hinweis auf Notebook)
-
-
 1. Basics I:
     - Defining Variables 
     - Printing Variables
     - Basic Calulations
     - Data Types
-    - Strings?
-2. Basics II:
-    - Kontrollstrukturen (if/else)
-    - Schlaufen / Loops
+2. Strings
 3. Lists
-4. Disctionaries
+4. Dictionaries
+5. For Loops & If/Else
 5. Functions
