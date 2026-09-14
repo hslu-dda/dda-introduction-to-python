@@ -33,13 +33,13 @@ brew --version
 
 ## 2. Installing X-Code
 
-Xcode provides the essential developer tools that let your computer compile and run code. Even if you’re not building iOS apps, many programming languages and libraries on macOS rely on these tools to work properly. Install it with the following command: 
+Xcode provides the essential developer tools that let your computer compile and run code. Even if you’re not building iOS apps, many programming languages and libraries on macOS rely on these tools to work properly. 
 
-```bash
-xcode-select --install
-```
+You need to have the following installed: 
+- **Xcode App**: It should be installed by default in your Applications folder. If not, install it via the App Store.
+- **Xcode Developer Tools**: Need to be installed by entering the following command into your terminal: `xcode-select --install`
 
-You can check if it is installed with `xcode-select -p`
+You can check if it is installed with `xcode-select -p`.
 
 ## 3. Installing Pyenv
 
